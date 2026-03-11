@@ -11,12 +11,15 @@ This repository contains an example script for parsing resumes using the Resume 
 
 1. Ensure you are in the project root directory.
 2. Create a .env file and add your own Gemini API key in the following pattern:
-   ```GEMINI_API_KEY=<your_key_here>
+   ```bash
+   GEMINI_API_KEY=<your_key_here>
+   ```
 
 3. Run the example script:
 
    ```bash
    python src/example_usage.py
+   ```
 
 4. The script will parse the example PDF and Word resume files and print the extracted information (name, email, skills) in the console.
 
