@@ -1,0 +1,5 @@
+# requirements.txt - Resume Parser Framework Dependencies
+PyMuPDF>=1.23.0          # PDF extractor (fitz)
+python-docx>=0.8.11      # DOCX extractor
+google-genai>=0.7.2      # Google Gemini LLM (free)
+python-dotenv>=1.0.0     # .env file loading for API keys
